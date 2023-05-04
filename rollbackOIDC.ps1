@@ -1,5 +1,5 @@
 # Liste des OS autorisés
-$AllowedOsVersions = @("Windows Server 2012", "Windows Server 2012 R2", "Windows Server 2008", "Windows Small Business Server 2011")
+$AllowedOsVersions = @("Windows Server 2012", "Windows Server 2012 R2", "Windows Server 2008", "Windows Server 2008 R2", "Windows Small Business Server 2011")
 
 # Récupération de la version de l'OS
 $OsVersion = (Get-WmiObject -Class Win32_OperatingSystem).Caption
